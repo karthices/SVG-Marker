@@ -9,7 +9,6 @@ const plot1color = document.getElementById("plot1color");
 const fileInput = document.getElementById('my-file-input');
 fileInput.addEventListener('change', handleFileSelect);
 
-debugger;
 container.querySelector("svg").style.width = container.style.width;
 container.querySelector("svg").style.height = container.style.height;
 
