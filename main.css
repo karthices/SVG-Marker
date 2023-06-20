@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#bgcontainer{
+    background: url(./demo.jpg) left top no-repeat;
+    background-size: cover;
+    background-size: auto;
+    min-height: 500px;
+}
+
+.points{
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border: 1px solid black;
+}
+.points:hover{
+    background-color: lightgreen;
+    border:2px;
+}
+
+.points.active{
+    background-color: darkgreen;
+    border: 2px;
+}
+
+.getpoints{
+    background-color: #ffffff;
+    opacity: 0.6;
+}
